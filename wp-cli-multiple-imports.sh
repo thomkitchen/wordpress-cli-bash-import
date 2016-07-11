@@ -1,6 +1,7 @@
-# The -origin flag is added for use with import-fixer.php script file by @pippercameron. Just delete if you don't care where content came from
-
 #!/bin/bash
+
+# The -origin flag is added for use with import-fixer.php script file by @pippercameron. 
+# Delete -origin=$strippedName if you don't care where content came from
 files=/path/to/exports/root_folder_of_exports/*
 
 for file in $files
